@@ -21,7 +21,6 @@ const showStore = create((set) => ({
       };
     });
     
-    console.log(dataRes)
     set({ graphData })
     set({ data: dataRes.data })
     
