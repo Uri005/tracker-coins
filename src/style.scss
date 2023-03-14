@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.width {
+  max-width: 600px;
+  margin: 0 auto;
+  width: 92%;
+}
+
+.header {
+  background: #111;
+  color: white;
+
+  h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
